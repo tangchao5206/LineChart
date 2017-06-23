@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.me.com.linechart.MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <HorizontalScrollView
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+      <cn.me.com.linechart.view.LineGraphicView
+          android:id="@+id/line"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          app:text_size="10sp"
+          app:text_color="@color/colorPrimary"
+          app:line_color="@color/black"
+          />
+    </HorizontalScrollView>
+
+
+</LinearLayout>
